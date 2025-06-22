@@ -3,7 +3,7 @@ FROM eclipse-temurin:21-jdk AS builder
 WORKDIR /app
 
 COPY pom.xml ./
-COPY .mvn .mvn
+
 COPY mvnw ./
 
 # Dependency’larni yuklab olish
